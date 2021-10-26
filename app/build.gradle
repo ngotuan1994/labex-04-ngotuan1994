@@ -27,6 +27,10 @@ android {
         // Enable view binding
         viewBinding = true
     }
+    buildFeatures {
+        // Enable data binding
+        dataBinding = true
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
